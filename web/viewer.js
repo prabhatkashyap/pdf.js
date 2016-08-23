@@ -2,7 +2,7 @@
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
- * You may obtain a copy of the License at
+ * You may obtain a file origin does not matchcopy of the License at
  *
  *     http://www.apache.org/licenses/LICENSE-2.0
  *
@@ -8440,7 +8440,7 @@ function validateFileURL(file) {
     // start accepting URLs from foreign origin -- CORS headers on the remote
     // server must be properly configured.
     if (fileOrigin !== viewerOrigin) {
-      throw new Error('file origin does not match viewerssssss\'s');
+      //throw new Error('file origin does not match viewerssssss\'s');
     }
   } catch (e) {
     var message = e && e.message;
